@@ -1,16 +1,10 @@
-import css from "./App.module.css";
-// import NavBarSimple from "./components/NavBarSimple";
-import Sidebar from "./components/Sidebar";
-import NavBarForm from "./components/NavBarForm";
+//import "./App.css";
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
 
 function App() {
-  return (
-    <div className={css.App}>
-      {/* Add your components here */}
-      <NavBarForm />
-      <Sidebar />
-    </div>
-  );
+  return <div className="App">
+      <LifeCyclesCWU />
+  </div>;
 }
 
 export default App;
